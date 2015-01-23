@@ -1,0 +1,6 @@
+#!/bin/sh
+
+qmake -project
+qmake Server.pro
+make -f Makefile
+rm -f *.o moc_serverframe.cpp Makefile Server.pro
